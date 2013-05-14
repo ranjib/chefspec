@@ -2,6 +2,7 @@ require 'chef'
 require 'chef/formatters/chefspec'
 require 'chefspec/chef_runner'
 require 'chefspec/version'
+require 'chefspec/stub'
 
 if defined?(RSpec)
   require 'chefspec/matchers/cron'
